@@ -1,0 +1,294 @@
+.products-bg {
+    height: 25vh;
+    background: url(./../img/products.jpg) no-repeat center/cover;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.select-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0;
+    margin-bottom: 10px;
+}
+
+.select-section select {
+    padding: 8px 16px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font: 14px 'Open Sans', sans-serif;
+    color: #666666;
+}
+
+.filter-section .btn-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-section .btn-section button {
+    width: 48%;
+    padding: 8px 16px;
+    border: 1px solid #147ff9;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #147ff9;
+    font: bold 14px 'Open Sans', sans-serif;
+    transition: .4s;
+}
+
+.filter-section .btn-section button:hover {
+    background-color: #147ff9;
+    color: #fff;
+}
+
+.car-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px 0;
+}
+
+.car-section article {
+    width: 48%;
+    overflow: hidden;
+    transition: .7s;
+}
+
+.car-section .car-img {
+    margin-bottom: 10px;
+}
+
+.car-section article a img {
+    aspect-ratio: 1/1;
+    width: 100%;
+    height: 100%;
+    transition: .6s;
+}
+
+.car-section .car-content {
+    text-align: center;
+    padding: 15px 0;
+
+}
+
+.car-section .car-content a {
+    font: bold 14px 'Open Sans', sans-serif;
+    color: #54595f;
+}
+
+.car-section article:hover .car-img img {
+    transform: scale(1.07);
+}
+
+.car-section article:hover .car-content a {
+    color: #cf2e2e;
+    text-decoration: underline;
+}
+
+.car-section article:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.hidden-section {
+    display: none;
+}
+.btns-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px 0;
+    margin-bottom: 30px;
+}
+
+.btns-section a {
+    background-color: #147ff9;
+    color: #fff;
+    font: 300 15px 'Open Sans', sans-serif;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 0;
+}
+
+img:not(.fl-lightbox-preview-img) {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    display: block;
+    height: auto;
+}
+
+.lightboxes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.lightboxes > * {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    width: 200px;
+    overflow: hidden;
+    height: 150px;
+}
+
+@media(min-width:350px) {
+    .select-section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .select-section select {
+        width: 47%;
+    }
+}
+
+@media(min-width:510px) {
+    .select-section select {
+        width: 32%;
+    }
+}
+
+@media(min-width:576px) {
+    .container {
+        max-width: 540px;
+    }
+    .btns-section{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 15px 0;
+    }
+    .btns-section button{
+        width: 47%;
+    }
+}
+
+@media(min-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .products-bg {
+        height: 50vh;
+    }
+    .btns-section{
+        justify-content: center;
+        gap: 0 15px;
+    }
+    .btns-section button{
+        width: inherit;
+    }
+
+}
+
+@media(min-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .products-bg {
+        height: 70vh;
+    }
+
+    .products-section {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .filter-section {
+        width: 25%;
+        background-color: #f7f9ff;
+        padding: 30px 20px;
+        height: 600px;
+
+    }
+
+    .car-section {
+        justify-content: flex-start;
+        gap: 30px 17px;
+        width: 70%;
+    }
+
+    .car-section article {
+        width: 23%;
+    }
+
+    .filter-section .select-section {
+        flex-direction: column;
+        gap: 15px 0;
+    }
+
+    .filter-section .select-section select {
+        width: 100%;
+    }
+
+    .hidden-section {
+        display: block;
+        margin: 30px 0;
+    }
+
+    .car-svg {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 70px;
+    }
+
+    .car-svg .line {
+        width: 45%;
+        height: 1px;
+        background-color: #000;
+    }
+
+    .car-svg svg {
+        width: 30px;
+        height: 20px;
+        fill: #54595f;
+    }
+
+    .hidden-section ul li {
+        display: flex;
+        align-items: center;
+        gap: 0 15px;
+        margin: 10px 0;
+        font: 400 16px 'Open Sans', sans-serif;
+    }
+
+    .hidden-section ul li a svg {
+        width: 18px;
+        height: 18px;
+        fill: #147ff9;
+        background-color: #f7f9ff;
+    }
+
+    .hidden-section-btn {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        padding: 12px 24px;
+        background-color: #147ff9;
+        color: #fff;
+        font: 500 15px 'Open Sans', sans-serif;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-top: 30px;
+    }
+}
+
+@media(min-width:1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media(min-width:1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}

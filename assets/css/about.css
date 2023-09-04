@@ -1,0 +1,314 @@
+.about-bg {
+    height: 60vh;
+    padding: 60px 0;
+    background: linear-gradient(96deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5579481792717087) 0%), url(./../img/home-bg.jpg) center center/cover;
+}
+
+.about-elementor {
+    text-align: center;
+}
+
+.about-elementor h2 {
+    font: 600 38px/1 'Open Sans', sans-serif;
+    color: #fff;
+    margin: 0 0 50px;
+}
+
+.about-elementor .about-elementor-counter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px 0;
+}
+
+.about-elementor .about-elementor-counter div {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 25px 0;
+}
+
+.about-elementor .about-elementor-counter span:first-child {
+    color: #fff;
+    font: 600 40px/1 'Open Sans', sans-serif;
+}
+
+.about-elementor .about-elementor-counter span:last-child {
+    color: #fff;
+    font: 400 13px/1 'Open Sans', sans-serif;
+}
+
+.about-header-content,
+.about-guarantee,
+.faq {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.about-header-content .blue-expression,
+.about-guarantee .blue-expression,
+.faq .blue-expression {
+    color: #147ff9;
+}
+
+.about-header-content .underline,
+.about-guarantee .underline,
+.faq .underline {
+    margin: 20px 0;
+    width: 130px;
+    height: 1px;
+    background-color: #147ff9;
+    display: inline-block;
+}
+
+.about-header-content h2,
+.about-guarantee h2,
+.faq h2 {
+    color: #000;
+    overflow: hidden;
+    font: bold 40px/1 'Open Sans', sans-serif;
+}
+
+.about-header-content .about-header-content-text,
+.about-guarantee .about-header-content-text,
+.faq .about-header-content-text {
+    color: #333;
+    font: 400 17px/1.4 'Open Sans', sans-serif;
+    margin: 0 0 15px;
+}
+
+.about-header-content .about-header-content-text .blue-expression,
+.about-guarantee .about-header-content-text .blue-expression,
+.faq .about-header-content-text .blue-expression {
+    font-weight: bolder;
+}
+
+.experience-bg {
+    padding: 30px 0;
+    background-color: #f1f2f7;
+}
+
+.about-experience section {
+    padding: 30px 0;
+}
+
+.about-experience .section-img img {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.about-experience .section-content .experience-data {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+
+.about-experience .section-content .experience-data .content h2 {
+    color: #000;
+    font: 600 32px 'Open Sans', sans-serif;
+}
+
+.about-experience .section-content .experience-data .content i {
+    font: bold 50px 'Open Sans', sans-serif;
+    font-style: italic;
+    color: #147ff9;
+    margin-right: 15px;
+}
+
+.about-experience .section-content .experience-data:not(.content) {
+    font: 400 16px 'Open Sans', sans-serif;
+    color: #7a7a7a;
+    margin: 0 0 15px;
+}
+
+.about-experience .section-content .experience-data:not(.content) .blue-expression {
+    color: #147ff9;
+    font: bolder 18px 'Open Sans', sans-serif;
+}
+
+.about-experience .section-content .experience-data:not(.content) button {
+    font: 500 18px/1 'Open Sans', sans-serif;
+    color: #fff;
+    padding: 20px 40px;
+    background-color: #147ff9;
+    border: 0;
+    border-radius: 5px;
+}
+
+.about-guarantee .guarantee-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0;
+}
+
+.about-guarantee .guarantee-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-guarantee .guarantee-card .guarantee-card-content {
+    text-align: left;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px 0;
+}
+
+.about-guarantee .guarantee-card .guarantee-card-content h3 {
+    font: 600 28px/1 'Open Sans', sans-serif;
+    margin: 0 0 10px;
+}
+
+.about-guarantee .guarantee-card .guarantee-card-content .content .title {
+    font: 600 20px/1 'Open Sans', sans-serif;
+    color: #000;
+    margin: 0 0 15px;
+}
+
+.about-guarantee .guarantee-card .guarantee-card-content .content:not(.title) {
+    font: 400 16px/32px 'Open Sans', sans-serif;
+    color: #7a7a7a;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.guarantee-card-img img{
+    aspect-ratio: 16/9;
+    width: 100%;
+}
+.guarantee-certificate {
+    padding: 30px 0;
+}
+
+.guarantee-certificate .certificate-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+.guarantee-certificate .certificate-content h2 {
+    font: 600 32px/1 'Open Sans', sans-serif;
+    color: #000;
+}
+
+.guarantee-certificate .certificate-content h5 {
+    font: 600 20px/1 'Open Sans', sans-serif;
+}
+
+.guarantee-certificate .certificate-content span {
+    font: 400 16px/1.6 'Open Sans', sans-serif;
+    color: #7a7a7a;
+}
+
+.guarantee-certificate .certificate-img {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+
+.guarantee-certificate .certificate-img div {
+    border: 1px solid black;
+}
+
+.guarantee-certificate .certificate-img img {
+    width: 100%;
+    aspect-ratio: 3/4;
+}
+
+.accordion-item button {
+    font: 400 20px/1 'Open Sans', sans-serif;
+    background-color: #f1f2f7;
+    color: #000;
+    margin: 0 0 10px;
+}
+
+.accordion-item .accordion-body {
+    font: 400 16px/32px 'Open Sans', sans-serif;
+    text-align: left;
+    color: #7a7a7a;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .guarantee-certificate .certificate-img {
+        flex-direction: row !important;
+        gap: 0 5px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .about-elementor h2 {
+        font: 600 60px/1 'Open Sans', sans-serif;
+    }
+
+    .about-elementor .about-elementor-counter {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        gap: 0 16px;
+        margin: 100px 0 0;
+    }
+
+    .guarantee-wrapper {
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 30px 0;
+    }
+
+    .guarantee-card {
+        width: 47%;
+    }
+
+    .guarantee-certificate {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .guarantee-certificate .certificate-content,
+    .guarantee-certificate .certificate-img {
+        width: 48%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .about-experience section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .about-experience .section-img,
+    .about-experience .section-content {
+        width: 47%;
+    }
+
+    .guarantee-card .guarantee-card-content {
+        justify-content: flex-start !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
